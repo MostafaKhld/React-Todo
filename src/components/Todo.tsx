@@ -27,7 +27,7 @@ function Todo({ todo, onRemove }: Props) {
           <p
             className={todoItem.completed ? "isDone" : ""}
             data-testid="todo-text"
-          >
+          >"test"
             {todoItem.text}
           </p>
         </Col>
